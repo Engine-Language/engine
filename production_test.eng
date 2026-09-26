@@ -1,0 +1,412 @@
+// ----------------------------------------------------
+// Engine v2.7 <OFFICIAL PRODUCTION RELEASE SCRIPT>
+// Published By: <Mason Pehringer> (CEO)
+// ----------------------------------------------------
+
+// 1. Learing the Run command
+
+run Hello \\ = { // you type your code here! but only the {} if it over one line
+    Money()
+    Money += 1
+    if Money == 2 then
+        say("Your money is over $2! Go buy something!")
+    end
+}
+
+Hello // This fire's the Hello but Hello is a command what kind of command? A Run command! So is well fire code
+
+// 2. N/A
+
+[Graphics_Driver];;[Physics_Core]
+
+// 3. Learing the Sym Group
+
+// ! Locks down a specific local system folder or resource path so background processes can't turn it off
+
+Money()
+[Money(Money + Money ^ 10 + 1)] // Now even if the script stops this line of code well not
+
+// @ Points to a single variable space or local memory slot on your computer screen
+
+Money()
+
+
+
+// # Marks a single line of text or a number as a temporary data category placeholder
+
+Money()
+
+if #Money == "510" then
+    say("Your Money is over 510+!")
+end
+
+// $  Checks or updates a numeric variable value inside your game code (like character money or items)
+
+Money()
+$Money
+
+if Money == Money then
+    Say("A easy way to get a ture or just use if true then!")
+end
+
+// % Tells your computer CPU to divide a single code action into a lightweight background process
+
+// Lets say that "Money" ='s 3.5112952
+
+Money()
+Money(%Money) // now Money ='s 3 and not 3.5112952!
+
+// ^ If its in a () then it's math going to the power but if its in code then its setting a Value to = something else in that part of the code only
+
+Money()
+
+if true then
+    say("This is the start of the part of this script")
+    Money^ = "Hello!" // Now Money ='s Hello! in there but out of this script its the same value as it was before this part of the script
+    if Money == "Hello!" then
+        say("Money ='s Hello!")
+    end
+end
+
+// & Checks two separate local conditions at the exact same time in two ways!
+
+FakeMoney()
+Money()
+
+if Money & FakeMoney == 0 then
+    say("Money plus FakeMoney are both at 0!")
+end
+
+if #&%Money & #&%FakeMoney == 0 then
+    say("Money and FakeMoney are at 0!")
+end
+
+// *  Multiplies local numeric data streams together
+
+Money()
+
+[Money] * 5 // Now there are 5 Money's!
+
+// ( Wraps local calculation strings and temporary math equations
+
+Money()
+(Money = 10 + 5)
+
+
+// ) Executes a true Value Injection Statement, locking brand-new values and calculations directly into a variable's core address permanently so it never turns into a ghost variable!
+
+Money()
+(Money(Hello ^ 10))
+
+// and lets say you have some lines of code in () like this
+
+(if true then) // if its inside of () like the whole line this well now fire first before anyother lines but what if its in a part?
+
+if true then
+    if true then
+        say("Hi!")
+    end) // the end has a ) at the end of it to let other () line's go without overwriting it!
+    else
+    if false then
+        (Money += 10) // this well fire before the first if then does!
+    end
+end
+
+// 4. Learing the last key's...
+
+// ` The Inverse Modifier
+
+if Money `~ 100 then // Its looking for is Money does NOT match with 100 then
+    say("Money is not a match for 100")
+end
+
+// ~ Equality Matching Check
+
+if Money ~ FakeMoney then // If Money is a MATCH with FakeMoney if true then
+    say("Money is a match for FakeMoney")
+end
+
+// , The Stream Separator
+
+say("Hello there! You have $", Money, "What are you going to buy with that?")
+
+// Lets say you were making a game and you have a Model named "Killer" and you have a hitbox in that model and in that hitbox is a value! How do you get that?
+
+[Killer],hitbox,value
+
+// ; Its like roots in a tree! It goes into the system or were ever the script is hinding and it can grap info! 
+
+for every; [ScriptName],Script2,;,Money do
+    Money =; [ScriptName],Script2,;,Money do // Now if you had a 2nd script in the games file's it well let Money to that script's money! (If it has a Value named "Money")
+end
+
+// Or it can put Value's into the system
+
+if Money `~ 10 then
+    ;Money // This uploads a Value named "Money" into the system with the same Value
+end; // this ends all ;'s from existing in this part of the script (MAY NOT BE IN v2.7 OR UNDER!)
+
+// Or you can do this!
+
+Money();;Graphics()
+
+// : // Developer Rule: Links sub-folders and deep library modules together, letting your script path dive down straight into specific system network spaces
+
+System:Network:Tunnel()
+
+// ? Quick Status Check
+
+Money? // background status check, logging its current state directly to your hidden console terminal or aka what I call it "The Log"
+
+// \ 1/2 Tell's the script to read one half of the code...
+
+Money = "Hi!" \ Money = "Not hi :("
+
+// \\ 2/2 Tell's the script to read both sides... (ONLY TO SET A VALUE TO A NON VALUE)
+
+run Hello \\ Money += 1 // The 1st \ tell's the script to read "Hello" as a Command but what does the command do? That's the 2nd \ the 2nd \ tell's the script what to set the Hello Value to!
+
+// {} Holds lines of code or is a Table...
+
+run \\ = { Money += 10
+    if Money >= 100 then
+        say("Money is over 100!")
+    end
+}
+
+// Or a Table
+
+Cash = {
+    "Hello",
+    "Bye!"
+}
+
+// [] The Hardware Driver Component Target
+
+Hello = [TargetName],SomethingInThatTarget,SomethingInThatTarget
+
+// - Gose from one thing to the next
+
+if Money == 10-100 then
+    say(:"Money Is at 10-100!") // (THE ":" IN THE SAY IS NOT IN v2.7!)
+    say("Money is at 10-100!") // In v2.7
+end
+
+// 5. Events/Function
+
+// say() Lets you print a saying into the hard system
+
+say("If you made a log or something is logging every say that happens then this well show up!")
+
+// run()
+
+// Hey! We did this one :/ it was the first one! Or the 2nd idk
+
+// input the raw data from any "input" that the system can read or can get from and outside or inside help
+
+I = if(key.input)
+T = then(littlekey.input)
+N = (==(little.input))
+E = end(littlekey.input)
+
+I #&%Money N 10 T
+    say("Hi!")
+E
+
+// key Key ='s the Main keys that are used in raw coding Language code! like "if, for, etc!"
+
+if (if(key)) == (if(key)) then
+    say("The <", "if", "> Key was found and set to <", "if", ">!")
+end
+
+// littlekey It's the same thing as the key but for the little keys still needed but a lot less powerfull like "then, end, etc"
+
+N = (==(little.input))
+T = then(littlekey.input)
+
+if true T
+    // do nothing
+E
+
+// stop() This lets you stop any Function from happening!
+
+(stop.data) // this stops all raw data from being used for the script! (This may stop the script from running in the first please to remember that)
+(stop.littlekey) // this stops all little key's from being set!
+// Or even!
+(stop.stop)
+// Now remember! All []!'s do not stop for any stop's
+
+// hypnotic This well perm stop any Function's unlike "stop" that stop's then this means that even []!'s cant say no!
+
+(hypnotic.data) // this stops all raw data from being used for the script! (This may stop the script from running in the first please to remember that)
+(hypnotic.littlekey) // this stops all little key's from being set!
+// Or even!
+(hypnotic.hypnotic)
+
+// crash() You can guess. It does not crash a Function! (You can't do that or at lest its not needed) but it crashes the whole system!
+
+crash() // boom! Everything has stoped working and the only way to get it back up and working again is if you rerun the code again!
+
+// error() Same thing. But you get to say it! And its a error and not a crash so not the same thing?
+
+error("Your CPU is over 100%!")
+error("I just wanted to make your day a bad one :)")
+
+// 6. The 2nd power of the Sym Group
+
+// !! Sweeps the core computer registers for admin access
+
+YesOrNo = (!!) // best way to save this Value to a !! Sym Group!
+
+if YesOrNo == "Yes" then
+    say("The user has clicked on yes!")
+end
+
+// @@ Automatically maps global network mainframe routing lanes
+
+WIFI = (@@)
+
+if @@WIFI = "5G_Net_Work" then // The @@ is in frint of the WIFI to tell the code to actively ping across the global internet line to verify this network target!
+    say("We have found <", WIFI, ">")
+end
+
+// ## Partitions deep physical space on the target hard drive
+
+FindingItemInHD = (##)
+FindItem = (user.input) // "User" IS NOT IN v.27! Just use (input) it not has good and even but its okay for now
+FindItemNow = (FindingItemInHD.FindItem)
+
+if ##FindingItemInHD is in FindItemNow then // "is" AND "in" MAY NOT BE IN v2.7 so just do "if ##FindingItemInHD == FindItemNow then"
+    say("The System has found <", FindItemNow, "> In <", "HardDrive", ">")
+end
+
+// $$ Synchronizes the global marketplace inventory servers cloud wide
+
+HaveTheSpaceNeeded == ($$)
+
+if $$HaveTheSpaceNeeded == :"yes" then // THE ":" IN ":"yes"" IS NOT IN v2.7 so please just remove the ":" its not as good but its good enough for now
+    say("You have the spaces needed to upload this to your cloud...")
+end
+
+// %% Overdrives every single physical CPU hardware thread simultaneously
+
+// Lets say that the CPU has something called "MAIN_POWER_VALUE"
+
+MAIN_POWER_VALUE = [CPU],MAIN_POWER_VALUE
+
+%%MAIN_POWER_VALUE = 10
+
+// ^^ Activates infinite scaling values across active parameters
+
+// Lets say that you are making a game! And ther are... 3 scripts that are using the same Value.. "Kills"!
+
+Kills() = ^^[Script1],(code.input),Kills // "code" IS NOT A FUNCTION IN v2.7... Please just use "[Script1],kills" and if that does not work then.. UPGRADE!
+
+// && Completely locks down your structural validation gates
+
+// Remember that "YesOrNo = (!!)" from the other first "!!"? yep we are going to use that!
+
+YesOrNo = (!!)
+
+BlockYesOrNo = (&&YesOrNo) = ture // Or just remove the "= ture"... there is a 90% that it's better without it...
+
+// ** Sweeps graphics drivers and sound components to full max
+
+DailyUseOfEverything()
+BlockDailyUseOfEverything = false
+
+if BlockDailyUseOfEverything == ture then
+    say("Blocking your <", DailyUseOfEverything, ">")
+    **DailyUseOfEverything
+end
+
+// (( Injects all background variables permanently into core addresses
+
+// Let's say that you want a Value "BigMoney" to be a perm Value for the whole system! Let's use this plus ; to make that REALLY easy!
+
+BigMoney()
+BigMoney;
+
+((BigMoney = ("Im BigMoney!") // Now the script know's what BigMoney is and with this line of code BigMoney is set to a Value (You can change it to not be a Value) and it in the whole system!
+
+// )) Opens up the ultimate nice asynchronous lane closure block
+
+if true then
+    say("Hi!")
+    if ture then
+        say("Hello again!")
+    end) // This well let the () line under it go without over writing it
+    (if false then)
+        say("No hello for you :(")
+    end
+end)) // Global master closure completely seals the whole block but keeps the global asynchronous lane wide open so background server syncs or parallel hardware clocks underneath can execute "out-of-order" flawlessly!
+
+// 7. Ending Info...  
+
+// There are these things called "Cummands"!! What are they? This are all the cummands! (In this version...)
+
+// 3RD_P = ON This lets outside scripts help your script with outside info! (Turn this off if you want your script to be "Unhackale")
+
+3RD_P = OFF
+
+// CHANGE_CODE = ON This lets your script change code as its running! Like adding more code or changing the code as it's running! (Turn this off if you want your script to be "Unhackale")
+
+CHANGE_CODE = OFF
+
+// CODE_TEST = ON This is way Engine can't error or crash on you if you miss one line of code up! If this is ON then it well skip right by any lines that well error this lets you test your code without it crashing on you as you do it!
+
+CODE_TEST = ON
+
+// ~(0) this is a timer
+
+~(5) // this well wait 5s but the ~ is with it so it well think... "Is 5 <Time> set to <true>? Yes? Then run <Time> at <5s>"
+
+// There are >(0) and <(0) as well!
+
+>(0) // this is saying... "Is <Timer> more then 0s? Yes? Then fire <Timer> and <Wait> <0s>"
+
+<(0) // this is saying... "Is <Timer> less then 0s? Yes? Then fire <Timer> and <Wait> <0s>"
+
+// the last little bit of code! I well give you two and you need to guess it right! One is wrong but the other is right! (What one well error not the one that well not work)
+
+// 1st
+
+run WelcomeMessage \\ = {
+    say("System online. Custom Engine language running with 100% success!")
+}
+
+(Money((Money + 0)))
+
+if Money `~ 100 then
+    say("1/2")
+else)
+    if Money ~ 100 then
+        say("2/2")
+        (hypnotic.data)
+    end)
+end))
+
+WelcomeMessage
+
+// 2nd
+
+run CheckMoney \\ = {
+    say("Checking Money...")
+    if Money then
+        say("You have <", Money, "> Go buy something!")
+    end
+    (if Money `~ FakeMoney then)
+        (hypnotic.input)
+    end
+    ~(5)
+    (hypnotic.hypnotic)
+    end
+}
+
+~(5)
+
+CheckMoney
+
+// The answer is <- .... . / ..-. .. .-. ... - / --- -. .>
+
+// Wow look at that! That is everything you need to know/can know about <v2.7> and everything that in it! You have just learn Engine to the 100% my friend! good job!
